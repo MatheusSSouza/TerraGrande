@@ -1,0 +1,1546 @@
+﻿Log file open, 07/21/17 01:18:49
+LogInit:Display: Running engine for game: TerraGrande
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1208231428) SRandInit(-1208231428).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.076499
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.21-04.18.51:301][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.21-04.18.51:301][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.21-04.18.51:335][  0]LogInit: Computer: MATHEUS-ACER
+[2017.07.21-04.18.51:335][  0]LogInit: User: tethe
+[2017.07.21-04.18.51:335][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.07.21-04.18.51:335][  0]LogInit: High frequency timer resolution =2.338338 MHz
+[2017.07.21-04.18.51:335][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.07.21-04.18.51:335][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.21-04.18.51:335][  0]LogMemory: Process Physical Memory: 262.64 MB used, 262.64 MB peak
+[2017.07.21-04.18.51:335][  0]LogMemory: Process Virtual Memory: 262.23 MB used, 262.23 MB peak
+[2017.07.21-04.18.51:335][  0]LogMemory: Physical Memory: 4580.55 MB used,  3525.77 MB free, 8106.33 MB total
+[2017.07.21-04.18.51:335][  0]LogMemory: Virtual Memory: 643.27 MB used,  3525.77 MB free, 134217728.00 MB total
+[2017.07.21-04.18.52:439][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.21-04.18.52:487][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 820M' (Feature Level 11_0)
+[2017.07.21-04.18.52:487][  0]LogD3D11RHI:       2000/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.21-04.18.52:495][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2017.07.21-04.18.52:495][  0]LogD3D11RHI:       128/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.07.21-04.18.52:497][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.21-04.18.52:497][  0]LogD3D11RHI:       0/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.21-04.18.52:497][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.21-04.18.52:504][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.21-04.18.52:504][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.21-04.18.52:504][  0]LogWindows: EnumDisplayDevices:
+[2017.07.21-04.18.52:505][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2017.07.21-04.18.52:505][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.07.21-04.18.52:505][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.07.21-04.18.52:505][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.07.21-04.18.52:505][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 820M
+[2017.07.21-04.18.52:505][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.07.21-04.18.52:505][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.07.21-04.18.52:505][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.21-04.18.52:543][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.07.21-04.18.52:544][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.21-04.18.52:567][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 3)
+[2017.07.21-04.18.52:568][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../../Users/tethe/Documents/TerraGrande/Intermediate/Shaders/WorkingDirectory/11964/).
+[2017.07.21-04.18.52:568][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tethe/AppData/Local/Temp/UnrealShaderWorkingDir/E17EBC184FA4BB5C7F0E3BB0C640A1D3/'.
+[2017.07.21-04.18.52:569][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.21-04.18.54:688][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.21-04.18.54:822][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.21-04.18.55:008][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.21-04.18.55:243][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.21-04.18.55:373][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.21-04.18.55:506][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.21-04.18.55:637][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.21-04.18.55:767][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.21-04.18.55:885][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.21-04.18.56:031][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.21-04.18.56:160][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.21-04.18.56:286][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.21-04.18.56:416][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.21-04.18.56:547][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.21-04.18.56:677][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.21-04.18.56:932][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.21-04.18.56:932][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.21-04.18.57:064][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.21-04.18.57:275][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.21-04.18.57:390][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.21-04.18.57:518][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.21-04.18.57:649][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.21-04.18.57:803][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.21-04.18.57:937][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.21-04.18.57:937][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.21-04.18.59:330][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.21-04.18.59:405][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/tethe/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.21-04.18.59:405][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tethe/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.07.21-04.18.59:405][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tethe/Documents/TerraGrande/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.21-04.18.59:405][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.21-04.18.59:406][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tethe/Documents/TerraGrande/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.21-04.18.59:406][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.21-04.18.59:429][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.21-04.18.59:444][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tethe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.21-04.18.59:456][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.21-04.18.59:458][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.21-04.18.59:458][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.21-04.18.59:978][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.21-04.18.59:982][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.21-04.19.00:603][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.21-04.19.00:720][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.21-04.19.00:840][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.21-04.19.00:840][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.21-04.19.00:840][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.21-04.19.01:962][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: terragrande, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 719185628
+[2017.07.21-04.19.02:046][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2017.07.21-04.19.02:204][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.053182 seconds
+[2017.07.21-04.19.02:211][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.07.21-04.19.02:211][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.07.21-04.19.02:211][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.21-04.19.02:397][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.21-04.19.07:835][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.21-04.19.08:012][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.21-04.19.09:518][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.21-04.19.10:514][  0]SourceControl: Informações Controle de origem desativado
+[2017.07.21-04.19.10:764][  0]SourceControl: Informações Controle de origem desativado
+[2017.07.21-04.19.10:926][  0]SourceControl: Informações Controle de origem desativado
+[2017.07.21-04.19.11:162][  0]SourceControl: Informações Controle de origem desativado
+[2017.07.21-04.19.15:258][  0]LogEngine: Initializing Engine...
+[2017.07.21-04.19.15:260][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.21-04.19.15:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.21-04.19.15:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.21-04.19.16:262][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.21-04.19.16:276][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-04.19.16:315][  0]LogInit: FAudioDevice initialized.
+[2017.07.21-04.19.16:367][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/tethe/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.21-04.19.16:378][  0]LogInit: Texture streaming: Enabled
+[2017.07.21-04.19.16:734][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.21-04.19.17:033][  0]LogInit: Transaction tracking system initialized
+[2017.07.21-04.19.18:244][  0]BlueprintLog: New page: Carregar Editor
+[2017.07.21-04.19.22:086][  0]LocalizationService: Informações Localization service is disabled
+[2017.07.21-04.19.24:656][  0]LogConsoleResponse:Display: 
+[2017.07.21-04.19.25:051][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tethe/Documents/TerraGrande/Content/' took 0.06s
+[2017.07.21-04.19.25:052][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.21-04.19.25:052][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.21-04.19.29:087][  0]SourceControl: Informações Controle de origem desativado
+[2017.07.21-04.19.29:088][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.21-04.19.29:152][  0]LightingResults: New page: Compilação de Iluminação
+[2017.07.21-04.19.29:512][  0]MapCheck: New page: Verificação de Mapa
+[2017.07.21-04.19.29:513][  0]LightingResults: New page: Compilação de Iluminação
+[2017.07.21-04.19.34:204][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.07.21-04.19.34:940][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.21-04.19.34:976][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.21-04.19.35:412][  0]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 435,733ms to complete.
+[2017.07.21-04.19.35:412][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 6.324
+[2017.07.21-04.19.36:932][  0]LogCollectionManager: Loaded 0 collections in 0.002072 seconds
+[2017.07.21-04.19.37:381][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tethe/Documents/TerraGrande/Saved/Collections/' took 0.01s
+[2017.07.21-04.19.37:381][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tethe/Documents/TerraGrande/Content/Developers/tethe/Collections/' took 0.01s
+[2017.07.21-04.19.37:381][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tethe/Documents/TerraGrande/Content/Collections/' took 0.01s
+[2017.07.21-04.19.37:381][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2017.07.21-04.19.37:431][  0]LogContentBrowser: Native class hierarchy populated in 0.0474 seconds. Added 2245 classes and 453 folders.
+[2017.07.21-04.19.37:904][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.07.21-04.19.39:261][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0028 seconds. Added 0 classes and 0 folders.
+[2017.07.21-04.19.39:629][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0029 seconds. Added 1 classes and 2 folders.
+[2017.07.21-04.19.40:471][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.21-04.19.40:664][  0]LogUObjectGlobals:Warning: Falha ao encontrar objeto “Class Nenhum.”
+[2017.07.21-04.19.40:988][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.07.21-04.19.40:989][  0]LogLoad: (Engine Initialization) Total time: 54.35 seconds
+[2017.07.21-04.19.40:989][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.99 seconds
+[2017.07.21-04.19.40:989][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.21-04.19.41:009][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.21-04.19.41:010][  0]LogOcInput: OculusInput pre-init called
+[2017.07.21-04.19.41:101][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.07.21-04.19.41:105][  0]LogSlate: Took 0.001105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.21-04.19.41:121][  0]LogSlate: Took 0.001186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.21-04.19.41:161][  0]LogSlate: Took 0.020175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.21-04.19.42:052][  0]LogRenderer: Reallocating scene render targets to support 856x520 NumSamples 1 (Frame:2).
+[2017.07.21-04.19.43:412][  4]LogAssetRegistry: Asset discovery search completed in 41.3878 seconds
+[2017.07.21-04.19.43:412][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.07.21-04.19.43:412][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.07.21-04.27.55:628][745]LogSlate: Took 0.016662 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.21-04.27.57:844][783]Cmd: MAP LOAD FILE="../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/Ilha1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.21-04.27.57:874][783]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.21-04.27.57:910][783]LightingResults: New page: Compilação de Iluminação
+[2017.07.21-04.27.57:915][783]LoadErrors: New page: Carregando mapa: Ilha1.umap
+[2017.07.21-04.27.57:971][783]MapCheck: New page: Verificação de Mapa
+[2017.07.21-04.27.57:971][783]LightingResults: New page: Compilação de Iluminação
+[2017.07.21-04.28.00:706][783]LogSlate: Took 0.000647 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.21-04.28.00:735][783]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-04.28.02:026][783]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.21-04.28.02:113][783]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.21-04.28.02:394][783]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 280,524ms to complete.
+[2017.07.21-04.28.02:394][783]LogFileHelpers: Loading map 'Ilha1' took 4.578
+[2017.07.21-05.10.40:207][273]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.07.21-05.10.40:253][273]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.07.21-05.10.40:315][273]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.07.21-05.10.40:365][273]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.07.21-05.10.40:428][273]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128) - 86 MB total VRAM
+[2017.07.21-05.11.25:219][412]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.11.25:296][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.11.25:370][412]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:11:25)
+[2017.07.21-05.11.25:422][412]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.11.25:537][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.114818s)
+[2017.07.21-05.11.25:540][412]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.11.25:541][412]LogPlayLevel: PIE: World Init took: (0.003816s)
+[2017.07.21-05.11.25:556][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.155770s)
+[2017.07.21-05.11.26:405][412]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.11.26:449][412]LogInit: FAudioDevice initialized.
+[2017.07.21-05.11.26:825][412]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.11.27:018][412]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 0) at 2017.07.21-02.11.27
+[2017.07.21-05.11.27:092][412]LogWorld: Bringing up level for play took: 0.092576
+[2017.07.21-05.11.28:008][412]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0058 seconds. Added 11 classes and 0 folders.
+[2017.07.21-05.11.28:319][412]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 2,138
+[2017.07.21-05.12.17:215][716]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.12.17:252][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.12.17:252][716]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:12:17)
+[2017.07.21-05.12.17:252][716]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.12.17:296][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043713s)
+[2017.07.21-05.12.17:298][716]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.12.17:298][716]LogPlayLevel: PIE: World Init took: (0.002065s)
+[2017.07.21-05.12.17:299][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.046365s)
+[2017.07.21-05.12.17:394][716]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.12.17:447][716]LogInit: FAudioDevice initialized.
+[2017.07.21-05.12.17:494][716]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.12.17:500][716]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 0) at 2017.07.21-02.12.17
+[2017.07.21-05.12.17:500][716]LogWorld: Bringing up level for play took: 0.005052
+[2017.07.21-05.12.17:507][716]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 -0,674
+[2017.07.21-05.18.33:424][854]Cmd: TRANSACTION UNDO
+[2017.07.21-05.18.33:424][854]LogEditorTransaction: Undo Edição de Paisagem: Nivelar
+[2017.07.21-05.18.33:501][854]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.18.33:519][854]LogTexture:Display: Building textures: Texture2D_40 (BGRA8, 32X32) - 88 MB total VRAM
+[2017.07.21-05.18.33:521][854]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.18.33:530][854]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 88 MB total VRAM
+[2017.07.21-05.18.33:622][854]LogSlate: Took 0.000696 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.21-05.19.11:312][766]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.19.11:344][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.19.11:344][766]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:19:11)
+[2017.07.21-05.19.11:345][766]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.19.11:386][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041079s)
+[2017.07.21-05.19.11:388][766]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.19.11:389][766]LogPlayLevel: PIE: World Init took: (0.002590s)
+[2017.07.21-05.19.11:389][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.044339s)
+[2017.07.21-05.19.11:493][766]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.19.11:554][766]LogInit: FAudioDevice initialized.
+[2017.07.21-05.19.11:609][766]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.19.11:618][766]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 60) at 2017.07.21-02.19.11
+[2017.07.21-05.19.11:619][766]LogWorld: Bringing up level for play took: 0.007939
+[2017.07.21-05.19.11:629][766]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 -0,552
+[2017.07.21-05.19.30:226][274]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.21-05.19.32:006][300]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.07.21-05.19.32:990][305]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.07.21-05.19.36:666][394]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.07.21-05.19.40:872][489]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.21-05.19.42:757][530]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.07.21-05.19.44:197][549]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.21-05.19.45:122][567]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.07.21-05.19.48:174][640]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.21-05.19.50:446][694]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.21-05.19.52:209][734]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.19.52:240][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.19.52:241][734]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:19:52)
+[2017.07.21-05.19.52:241][734]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.19.52:270][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029406s)
+[2017.07.21-05.19.52:272][734]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.19.52:272][734]LogPlayLevel: PIE: World Init took: (0.001723s)
+[2017.07.21-05.19.52:272][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.031571s)
+[2017.07.21-05.19.52:332][734]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.19.52:358][734]LogInit: FAudioDevice initialized.
+[2017.07.21-05.19.52:394][734]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.19.52:399][734]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 60) at 2017.07.21-02.19.52
+[2017.07.21-05.19.52:399][734]LogWorld: Bringing up level for play took: 0.003963
+[2017.07.21-05.19.52:464][734]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 0,282
+[2017.07.21-05.20.08:247][250]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.21-05.20.11:325][302]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.20.11:375][302]LogTemp:Display: Added material ShaderMap 0x000002382044F580 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.20.11:508][302]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382044F580
+[2017.07.21-05.20.12:481][302]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.20.12:483][302]LogTemp:Display: Added material ShaderMap 0x0000023825952B00 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.20.12:519][302]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x0000023825952B00
+[2017.07.21-05.20.12:519][302]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.20.12:548][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2017.07.21-05.20.12:549][302]LogTemp:Display: Added material ShaderMap 0x000002382586AE80 with Material 0x00000238258C3A00 to ShaderMapsBeingCompiled
+[2017.07.21-05.20.12:554][302]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, GameThreadShaderMap 0x000002382586AE80
+[2017.07.21-05.20.12:556][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.21-05.20.12:566][302]LogTemp:Display: Added material ShaderMap 0x0000023825869980 with Material 0x00000238258C2500 to ShaderMapsBeingCompiled
+[2017.07.21-05.20.12:574][302]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x0000023825869980
+[2017.07.21-05.20.12:576][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.07.21-05.20.12:579][302]LogTemp:Display: Added material ShaderMap 0x0000023825868100 with Material 0x00000238258C1C00 to ShaderMapsBeingCompiled
+[2017.07.21-05.20.12:585][302]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_1, GameThreadShaderMap 0x0000023825868100
+[2017.07.21-05.20.12:587][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.21-05.20.12:589][302]LogTemp:Display: Added material ShaderMap 0x000002380890DD00 with Material 0x00000238258C1000 to ShaderMapsBeingCompiled
+[2017.07.21-05.20.12:594][302]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x000002380890DD00
+[2017.07.21-05.20.12:596][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.07.21-05.20.12:598][302]LogTemp:Display: Added material ShaderMap 0x000002380890C480 with Material 0x00000238258C0700 to ShaderMapsBeingCompiled
+[2017.07.21-05.20.12:603][302]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x000002380890C480
+[2017.07.21-05.20.12:605][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.07.21-05.20.12:607][302]LogTemp:Display: Added material ShaderMap 0x00000238257C2B00 with Material 0x000002381FE22800 to ShaderMapsBeingCompiled
+[2017.07.21-05.20.12:612][302]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_4, GameThreadShaderMap 0x00000238257C2B00
+[2017.07.21-05.20.12:614][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.07.21-05.20.12:616][302]LogTemp:Display: Added material ShaderMap 0x00000238257C1280 with Material 0x000002381FE22200 to ShaderMapsBeingCompiled
+[2017.07.21-05.20.12:623][302]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_5, GameThreadShaderMap 0x00000238257C1280
+[2017.07.21-05.20.12:626][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.07.21-05.20.12:629][302]LogTemp:Display: Added material ShaderMap 0x000002382550F580 with Material 0x000002381FE21900 to ShaderMapsBeingCompiled
+[2017.07.21-05.20.12:636][302]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_6, GameThreadShaderMap 0x000002382550F580
+[2017.07.21-05.20.12:638][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.07.21-05.20.12:639][302]LogTemp:Display: Added material ShaderMap 0x000002382550DD00 with Material 0x000002381FE21000 to ShaderMapsBeingCompiled
+[2017.07.21-05.20.12:644][302]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_7, GameThreadShaderMap 0x000002382550DD00
+[2017.07.21-05.20.12:647][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2017.07.21-05.20.12:649][302]LogTemp:Display: Added material ShaderMap 0x000002382550C480 with Material 0x000002381FE20700 to ShaderMapsBeingCompiled
+[2017.07.21-05.20.12:653][302]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_8, GameThreadShaderMap 0x000002382550C480
+[2017.07.21-05.20.12:655][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2017.07.21-05.20.12:657][302]LogTemp:Display: Added material ShaderMap 0x00000238254BAB00 with Material 0x00000238254CBD00 to ShaderMapsBeingCompiled
+[2017.07.21-05.20.12:661][302]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_9, GameThreadShaderMap 0x00000238254BAB00
+[2017.07.21-05.20.12:664][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2017.07.21-05.20.12:665][302]LogTemp:Display: Added material ShaderMap 0x00000238254B9280 with Material 0x00000238254CB400 to ShaderMapsBeingCompiled
+[2017.07.21-05.20.12:669][302]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_10, GameThreadShaderMap 0x00000238254B9280
+[2017.07.21-05.20.12:766][302]LogSlate: Took 0.041416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.21-05.20.13:708][303]LogTemp:Display: Finished compile of shader map 0x000002382044F580
+[2017.07.21-05.20.13:708][303]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382044F580, marking material M_Landscape as finished
+[2017.07.21-05.20.13:708][303]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.20.16:732][357]LogTemp:Display: Finished compile of shader map 0x0000023825952B00
+[2017.07.21-05.20.16:732][357]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x0000023825952B00, marking material M_Landscape as finished
+[2017.07.21-05.20.16:732][357]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.20.16:782][358]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.20.16:782][358]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.20.16:782][358]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.20.16:782][358]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.20.17:085][369]LogTemp:Display: Finished compile of shader map 0x000002382586AE80
+[2017.07.21-05.20.17:085][369]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0 complete, GameThreadShaderMap 0x000002382586AE80, marking material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0 as finished
+[2017.07.21-05.20.17:085][369]LogTemp:Display: Marking material as finished 0x00000238258C3A00
+[2017.07.21-05.20.17:431][381]LogTemp:Display: Finished compile of shader map 0x0000023825869980
+[2017.07.21-05.20.17:431][381]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x0000023825869980, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.07.21-05.20.17:431][381]LogTemp:Display: Marking material as finished 0x00000238258C2500
+[2017.07.21-05.20.18:139][405]LogTemp:Display: Finished compile of shader map 0x0000023825868100
+[2017.07.21-05.20.18:139][405]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_1 complete, GameThreadShaderMap 0x0000023825868100, marking material FMatExpressionPreview MaterialExpressionTextureSample_1 as finished
+[2017.07.21-05.20.18:139][405]LogTemp:Display: Marking material as finished 0x00000238258C1C00
+[2017.07.21-05.20.18:452][415]LogTemp:Display: Finished compile of shader map 0x000002380890DD00
+[2017.07.21-05.20.18:452][415]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x000002380890DD00, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2017.07.21-05.20.18:452][415]LogTemp:Display: Marking material as finished 0x00000238258C1000
+[2017.07.21-05.20.18:818][427]LogTemp:Display: Finished compile of shader map 0x000002380890C480
+[2017.07.21-05.20.18:819][427]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_3 complete, GameThreadShaderMap 0x000002380890C480, marking material FMatExpressionPreview MaterialExpressionTextureSample_3 as finished
+[2017.07.21-05.20.18:819][427]LogTemp:Display: Marking material as finished 0x00000238258C0700
+[2017.07.21-05.20.19:197][439]LogTemp:Display: Finished compile of shader map 0x00000238257C2B00
+[2017.07.21-05.20.19:197][439]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_4 complete, GameThreadShaderMap 0x00000238257C2B00, marking material FMatExpressionPreview MaterialExpressionTextureSample_4 as finished
+[2017.07.21-05.20.19:197][439]LogTemp:Display: Marking material as finished 0x000002381FE22800
+[2017.07.21-05.20.19:413][446]LogTemp:Display: Finished compile of shader map 0x00000238257C1280
+[2017.07.21-05.20.19:413][446]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_5 complete, GameThreadShaderMap 0x00000238257C1280, marking material FMatExpressionPreview MaterialExpressionTextureSample_5 as finished
+[2017.07.21-05.20.19:413][446]LogTemp:Display: Marking material as finished 0x000002381FE22200
+[2017.07.21-05.20.19:776][458]LogTemp:Display: Finished compile of shader map 0x000002382550F580
+[2017.07.21-05.20.19:776][458]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_6 complete, GameThreadShaderMap 0x000002382550F580, marking material FMatExpressionPreview MaterialExpressionTextureSample_6 as finished
+[2017.07.21-05.20.19:776][458]LogTemp:Display: Marking material as finished 0x000002381FE21900
+[2017.07.21-05.20.20:076][468]LogTemp:Display: Finished compile of shader map 0x000002382550DD00
+[2017.07.21-05.20.20:077][468]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_7 complete, GameThreadShaderMap 0x000002382550DD00, marking material FMatExpressionPreview MaterialExpressionTextureSample_7 as finished
+[2017.07.21-05.20.20:077][468]LogTemp:Display: Marking material as finished 0x000002381FE21000
+[2017.07.21-05.20.20:378][478]LogTemp:Display: Finished compile of shader map 0x000002382550C480
+[2017.07.21-05.20.20:378][478]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_8 complete, GameThreadShaderMap 0x000002382550C480, marking material FMatExpressionPreview MaterialExpressionTextureSample_8 as finished
+[2017.07.21-05.20.20:378][478]LogTemp:Display: Marking material as finished 0x000002381FE20700
+[2017.07.21-05.20.20:731][490]LogTemp:Display: Finished compile of shader map 0x00000238254BAB00
+[2017.07.21-05.20.20:731][490]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_9 complete, GameThreadShaderMap 0x00000238254BAB00, marking material FMatExpressionPreview MaterialExpressionTextureSample_9 as finished
+[2017.07.21-05.20.20:731][490]LogTemp:Display: Marking material as finished 0x00000238254CBD00
+[2017.07.21-05.20.20:947][497]LogTemp:Display: Finished compile of shader map 0x00000238254B9280
+[2017.07.21-05.20.20:947][497]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_10 complete, GameThreadShaderMap 0x00000238254B9280, marking material FMatExpressionPreview MaterialExpressionTextureSample_10 as finished
+[2017.07.21-05.20.20:947][497]LogTemp:Display: Marking material as finished 0x00000238254CB400
+[2017.07.21-05.20.42:427][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Ilha1" FILE="../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/Ilha1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.21-05.20.42:650][134]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.20.42:657][134]LogTexture:Display: Building textures: Texture2D_38 (BGRA8, 32X32) - 90 MB total VRAM
+[2017.07.21-05.20.42:659][134]LogTexture:Display: Building textures: Texture2D_42 (BGRA8, 32X32) - 90 MB total VRAM
+[2017.07.21-05.20.43:031][134]LogSavePackage: Save=419.71ms
+[2017.07.21-05.20.43:031][134]LogSavePackage: Moving '../../../../../../Users/tethe/Documents/TerraGrande/Saved/Ilha1E4EA1F144CB2AC09E9F95A90630A0A0D.tmp' to '../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/Ilha1.umap'
+[2017.07.21-05.20.43:046][134]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/Ilha1.umap
+[2017.07.21-05.20.43:106][134]LogFileHelpers: Saving map 'Ilha1' took 1.152
+[2017.07.21-05.20.47:195][216]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.20.47:238][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.20.47:239][216]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:20:47)
+[2017.07.21-05.20.47:239][216]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.20.47:283][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043533s)
+[2017.07.21-05.20.47:285][216]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.20.47:285][216]LogPlayLevel: PIE: World Init took: (0.002165s)
+[2017.07.21-05.20.47:285][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.046313s)
+[2017.07.21-05.20.47:395][216]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.20.47:455][216]LogInit: FAudioDevice initialized.
+[2017.07.21-05.20.47:504][216]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.20.47:511][216]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 60) at 2017.07.21-02.20.47
+[2017.07.21-05.20.47:511][216]LogWorld: Bringing up level for play took: 0.005932
+[2017.07.21-05.20.47:519][216]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 -0,662
+[2017.07.21-05.21.39:018][462]Cmd: TRANSACTION UNDO
+[2017.07.21-05.21.39:018][462]LogEditorTransaction: Undo Edição de Paisagem: Esculpir
+[2017.07.21-05.21.39:063][462]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.21.39:073][462]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.21.39:220][462]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.21.39:224][462]LogTemp:Display: Added material ShaderMap 0x0000023801882080 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.21.39:261][462]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x0000023801882080
+[2017.07.21-05.21.39:261][462]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.21.44:092][582]LogTemp:Display: Finished compile of shader map 0x0000023801882080
+[2017.07.21-05.21.44:092][582]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x0000023801882080, marking material M_Landscape as finished
+[2017.07.21-05.21.44:092][582]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.21.44:102][583]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.21.44:103][583]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.21.44:103][583]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.21.44:103][583]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.21.51:630][769]LogEditorViewport: Clicking on Actor (double click): LandscapeGizmoActiveActor (LandscapeGizmoActiveActor)
+[2017.07.21-05.22.10:067][218]Cmd: TRANSACTION UNDO
+[2017.07.21-05.22.10:067][218]LogEditorTransaction: Undo Edição de Paisagem: Esculpir
+[2017.07.21-05.22.10:114][218]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.22.10:115][218]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.22.10:122][218]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.22.10:134][218]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.22.10:137][218]LogTemp:Display: Added material ShaderMap 0x000002381D942E80 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.22.10:167][218]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002381D942E80
+[2017.07.21-05.22.10:168][218]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.22.14:994][327]LogTemp:Display: Finished compile of shader map 0x000002381D942E80
+[2017.07.21-05.22.14:994][327]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002381D942E80, marking material M_Landscape as finished
+[2017.07.21-05.22.14:994][327]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.22.15:034][328]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.22.15:034][328]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.22.15:034][328]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.22.15:034][328]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.23.25:404][ 28]Cmd: TRANSACTION UNDO
+[2017.07.21-05.23.25:405][ 28]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.23.25:459][ 28]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.23.25:463][ 28]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.23.25:464][ 28]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.23.25:466][ 28]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.23.25:467][ 28]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.23.25:524][ 28]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.23.25:527][ 28]LogTemp:Display: Added material ShaderMap 0x000002381FF7D980 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.23.25:558][ 28]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002381FF7D980
+[2017.07.21-05.23.25:558][ 28]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.23.30:089][135]LogTemp:Display: Finished compile of shader map 0x000002381FF7D980
+[2017.07.21-05.23.30:089][135]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002381FF7D980, marking material M_Landscape as finished
+[2017.07.21-05.23.30:089][135]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.23.30:099][136]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.23.30:099][136]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.23.30:099][136]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.23.30:099][136]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.23.31:009][158]Cmd: TRANSACTION UNDO
+[2017.07.21-05.23.31:009][158]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.23.31:054][158]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.23.31:054][158]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.23.31:079][158]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.23.31:081][158]LogTemp:Display: Added material ShaderMap 0x00000238250C9D00 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.23.31:095][158]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x00000238250C9D00
+[2017.07.21-05.23.31:095][158]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.23.34:428][240]LogTemp:Display: Finished compile of shader map 0x00000238250C9D00
+[2017.07.21-05.23.34:428][240]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x00000238250C9D00, marking material M_Landscape as finished
+[2017.07.21-05.23.34:428][240]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.23.34:463][241]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.23.34:463][241]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.23.34:463][241]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.23.34:463][241]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.23.41:087][401]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.23.41:102][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.23.41:103][401]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:23:41)
+[2017.07.21-05.23.41:103][401]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.23.41:121][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017845s)
+[2017.07.21-05.23.41:122][401]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.23.41:122][401]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2017.07.21-05.23.41:122][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.019226s)
+[2017.07.21-05.23.41:192][401]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.23.41:212][401]LogInit: FAudioDevice initialized.
+[2017.07.21-05.23.41:250][401]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.23.41:253][401]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 60) at 2017.07.21-02.23.41
+[2017.07.21-05.23.41:253][401]LogWorld: Bringing up level for play took: 0.002666
+[2017.07.21-05.23.41:258][401]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 1,077
+[2017.07.21-05.24.34:801][779]Cmd: TRANSACTION UNDO
+[2017.07.21-05.24.34:801][779]LogEditorTransaction: Undo Edição de Paisagem: Nivelar
+[2017.07.21-05.24.34:847][779]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.24.34:848][779]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.24.34:854][779]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.24.34:868][779]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.24.34:872][779]LogTemp:Display: Added material ShaderMap 0x000002382731FC80 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.24.34:901][779]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382731FC80
+[2017.07.21-05.24.34:901][779]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.24.40:288][905]LogTemp:Display: Finished compile of shader map 0x000002382731FC80
+[2017.07.21-05.24.40:288][905]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382731FC80, marking material M_Landscape as finished
+[2017.07.21-05.24.40:288][905]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.24.40:326][906]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.24.40:326][906]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.24.40:326][906]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.24.40:326][906]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.24.41:119][926]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.24.41:133][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.24.41:133][926]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:24:41)
+[2017.07.21-05.24.41:133][926]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.24.41:149][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015957s)
+[2017.07.21-05.24.41:150][926]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.24.41:150][926]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2017.07.21-05.24.41:150][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.017308s)
+[2017.07.21-05.24.41:183][926]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.24.41:200][926]LogInit: FAudioDevice initialized.
+[2017.07.21-05.24.41:235][926]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.24.41:238][926]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 60) at 2017.07.21-02.24.41
+[2017.07.21-05.24.41:238][926]LogWorld: Bringing up level for play took: 0.002719
+[2017.07.21-05.24.41:241][926]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 1,06
+[2017.07.21-05.25.20:118][936]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.07.21-05.25.49:172][557]Cmd: TRANSACTION UNDO
+[2017.07.21-05.25.49:172][557]LogEditorTransaction: Undo Edição de Paisagem: Nivelar
+[2017.07.21-05.25.49:235][557]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.25.49:237][557]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.25.49:247][557]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.25.49:266][557]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.25.49:271][557]LogTemp:Display: Added material ShaderMap 0x0000023826BF4480 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.25.49:316][557]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x0000023826BF4480
+[2017.07.21-05.25.49:317][557]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.25.54:384][665]Cmd: TRANSACTION UNDO
+[2017.07.21-05.25.54:384][665]LogEditorTransaction: Undo Edição de Paisagem: Nivelar
+[2017.07.21-05.25.54:432][665]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.25.54:433][665]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.25.54:482][665]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.25.54:484][665]LogTemp:Display: Added material ShaderMap 0x0000023826A3EB00 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.25.54:507][665]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x0000023826A3EB00
+[2017.07.21-05.25.54:507][665]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.25.55:225][678]LogTemp:Display: Finished compile of shader map 0x0000023826BF4480
+[2017.07.21-05.25.55:225][678]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x0000023826BF4480, marking material M_Landscape as finished
+[2017.07.21-05.25.55:225][678]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.25.58:646][743]LogTemp:Display: Finished compile of shader map 0x0000023826A3EB00
+[2017.07.21-05.25.58:646][743]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x0000023826A3EB00, marking material M_Landscape as finished
+[2017.07.21-05.25.58:646][743]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.25.58:658][744]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.25.58:658][744]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.25.58:658][744]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.25.58:658][744]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.26.02:262][821]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.26.02:307][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.26.02:307][821]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:26:02)
+[2017.07.21-05.26.02:307][821]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.26.02:368][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059998s)
+[2017.07.21-05.26.02:370][821]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.26.02:370][821]LogPlayLevel: PIE: World Init took: (0.002489s)
+[2017.07.21-05.26.02:371][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.063153s)
+[2017.07.21-05.26.02:600][821]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.26.02:642][821]LogInit: FAudioDevice initialized.
+[2017.07.21-05.26.02:684][821]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.26.02:689][821]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 60) at 2017.07.21-02.26.02
+[2017.07.21-05.26.02:690][821]LogWorld: Bringing up level for play took: 0.004865
+[2017.07.21-05.26.02:695][821]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 0,514
+[2017.07.21-05.26.16:453][265]Cmd: TRANSACTION UNDO
+[2017.07.21-05.26.16:453][265]LogEditorTransaction: Undo Edição de Paisagem: Nivelar
+[2017.07.21-05.26.16:505][265]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.26.16:506][265]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.26.16:516][265]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.26.16:536][265]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.26.16:542][265]LogTemp:Display: Added material ShaderMap 0x0000023825A66400 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.26.16:587][265]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x0000023825A66400
+[2017.07.21-05.26.16:588][265]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.26.17:193][279]Cmd: TRANSACTION UNDO
+[2017.07.21-05.26.17:193][279]LogEditorTransaction: Undo Edição de Paisagem: Nivelar
+[2017.07.21-05.26.17:244][279]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.26.17:269][279]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.26.17:273][279]LogTemp:Display: Added material ShaderMap 0x000002380B03C100 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.26.17:325][279]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002380B03C100
+[2017.07.21-05.26.17:326][279]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.26.18:411][305]LogTemp:Display: Finished compile of shader map 0x0000023825A66400
+[2017.07.21-05.26.18:411][305]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x0000023825A66400, marking material M_Landscape as finished
+[2017.07.21-05.26.18:411][305]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.26.22:379][409]LogTemp:Display: Finished compile of shader map 0x000002380B03C100
+[2017.07.21-05.26.22:379][409]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002380B03C100, marking material M_Landscape as finished
+[2017.07.21-05.26.22:379][409]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.26.22:414][410]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.26.22:414][410]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.26.22:415][410]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.26.22:415][410]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.26.36:873][772]Cmd: TRANSACTION UNDO
+[2017.07.21-05.26.36:873][772]LogEditorTransaction: Undo Edição de Paisagem: Nivelar
+[2017.07.21-05.26.36:911][772]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.26.36:938][772]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.26.36:943][772]LogTemp:Display: Added material ShaderMap 0x000002380B03F580 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.26.37:007][772]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002380B03F580
+[2017.07.21-05.26.37:008][772]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.26.40:792][860]LogTemp:Display: Finished compile of shader map 0x000002380B03F580
+[2017.07.21-05.26.40:792][860]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002380B03F580, marking material M_Landscape as finished
+[2017.07.21-05.26.40:792][860]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.26.40:803][861]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.26.40:803][861]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.26.40:803][861]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.26.40:803][861]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.26.46:547][  1]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.26.46:567][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.26.46:567][  1]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:26:46)
+[2017.07.21-05.26.46:567][  1]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.26.46:595][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027659s)
+[2017.07.21-05.26.46:597][  1]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.26.46:597][  1]LogPlayLevel: PIE: World Init took: (0.001835s)
+[2017.07.21-05.26.46:597][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.029970s)
+[2017.07.21-05.26.46:648][  1]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.26.46:677][  1]LogInit: FAudioDevice initialized.
+[2017.07.21-05.26.46:715][  1]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.26.46:719][  1]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 60) at 2017.07.21-02.26.46
+[2017.07.21-05.26.46:719][  1]LogWorld: Bringing up level for play took: 0.003338
+[2017.07.21-05.26.46:724][  1]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 0,543
+[2017.07.21-05.27.23:261][ 42]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.27.23:292][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.27.23:293][ 42]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:27:23)
+[2017.07.21-05.27.23:293][ 42]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.27.23:329][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036279s)
+[2017.07.21-05.27.23:331][ 42]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.27.23:332][ 42]LogPlayLevel: PIE: World Init took: (0.002001s)
+[2017.07.21-05.27.23:332][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.038820s)
+[2017.07.21-05.27.23:392][ 42]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.27.23:424][ 42]LogInit: FAudioDevice initialized.
+[2017.07.21-05.27.23:468][ 42]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.27.23:472][ 42]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 60) at 2017.07.21-02.27.23
+[2017.07.21-05.27.23:472][ 42]LogWorld: Bringing up level for play took: 0.003399
+[2017.07.21-05.27.23:478][ 42]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 -0,703
+[2017.07.21-05.29.26:695][255]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.29.26:727][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.29.26:727][255]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:29:26)
+[2017.07.21-05.29.26:728][255]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.29.26:762][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033886s)
+[2017.07.21-05.29.26:764][255]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.29.26:765][255]LogPlayLevel: PIE: World Init took: (0.003117s)
+[2017.07.21-05.29.26:765][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.037866s)
+[2017.07.21-05.29.26:855][255]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.29.26:909][255]LogInit: FAudioDevice initialized.
+[2017.07.21-05.29.26:960][255]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.29.26:969][255]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 60) at 2017.07.21-02.29.26
+[2017.07.21-05.29.26:970][255]LogWorld: Bringing up level for play took: 0.007685
+[2017.07.21-05.29.26:979][255]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 0,798
+[2017.07.21-05.29.58:021][163]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.29.58:058][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.29.58:058][163]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:29:58)
+[2017.07.21-05.29.58:059][163]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.29.58:101][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042712s)
+[2017.07.21-05.29.58:103][163]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.29.58:103][163]LogPlayLevel: PIE: World Init took: (0.001933s)
+[2017.07.21-05.29.58:104][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.045209s)
+[2017.07.21-05.29.58:171][163]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.29.58:208][163]LogInit: FAudioDevice initialized.
+[2017.07.21-05.29.58:251][163]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.29.58:255][163]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 60) at 2017.07.21-02.29.58
+[2017.07.21-05.29.58:256][163]LogWorld: Bringing up level for play took: 0.003814
+[2017.07.21-05.29.58:262][163]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 0,081
+[2017.07.21-05.30.07:059][438]Cmd: TRANSACTION UNDO
+[2017.07.21-05.30.07:059][438]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.30.07:114][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.30.07:114][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.30.07:120][438]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.30.07:133][438]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.30.07:136][438]LogTemp:Display: Added material ShaderMap 0x000002381FF24F00 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.30.07:164][438]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002381FF24F00
+[2017.07.21-05.30.07:164][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.30.11:474][542]LogTemp:Display: Finished compile of shader map 0x000002381FF24F00
+[2017.07.21-05.30.11:474][542]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002381FF24F00, marking material M_Landscape as finished
+[2017.07.21-05.30.11:474][542]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.30.11:484][543]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.30.11:484][543]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.30.11:484][543]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.30.11:484][543]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.30.33:384][ 88]Cmd: TRANSACTION UNDO
+[2017.07.21-05.30.33:384][ 88]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.30.33:431][ 88]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.30.33:432][ 88]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.30.33:450][ 88]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.30.33:453][ 88]LogTemp:Display: Added material ShaderMap 0x000002380552D600 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.30.33:489][ 88]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002380552D600
+[2017.07.21-05.30.33:489][ 88]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.30.38:676][214]LogTemp:Display: Finished compile of shader map 0x000002380552D600
+[2017.07.21-05.30.38:676][214]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002380552D600, marking material M_Landscape as finished
+[2017.07.21-05.30.38:676][214]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.30.38:713][215]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.30.38:714][215]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.30.38:714][215]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.30.38:714][215]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.32.05:629][441]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.32.05:665][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.32.05:666][441]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:32:05)
+[2017.07.21-05.32.05:666][441]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.32.05:711][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044168s)
+[2017.07.21-05.32.05:713][441]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.32.05:714][441]LogPlayLevel: PIE: World Init took: (0.002942s)
+[2017.07.21-05.32.05:714][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.047942s)
+[2017.07.21-05.32.05:808][441]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.32.05:850][441]LogInit: FAudioDevice initialized.
+[2017.07.21-05.32.05:896][441]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.32.05:904][441]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 60) at 2017.07.21-02.32.05
+[2017.07.21-05.32.05:905][441]LogWorld: Bringing up level for play took: 0.006332
+[2017.07.21-05.32.05:913][441]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 -0,268
+[2017.07.21-05.32.45:680][504]Cmd: TRANSACTION UNDO
+[2017.07.21-05.32.45:680][504]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.32.45:726][504]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.32.45:727][504]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.32.45:734][504]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.32.45:746][504]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.32.45:751][504]LogTemp:Display: Added material ShaderMap 0x000002382B8E0B80 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.32.45:781][504]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382B8E0B80
+[2017.07.21-05.32.45:782][504]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.32.51:389][636]LogTemp:Display: Finished compile of shader map 0x000002382B8E0B80
+[2017.07.21-05.32.51:389][636]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382B8E0B80, marking material M_Landscape as finished
+[2017.07.21-05.32.51:389][636]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.32.51:401][637]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.32.51:401][637]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.32.51:401][637]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.32.51:401][637]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.32.57:851][798]Cmd: TRANSACTION UNDO
+[2017.07.21-05.32.57:851][798]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.32.57:896][798]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.32.57:897][798]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.32.57:903][798]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.32.57:914][798]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.32.57:918][798]LogTemp:Display: Added material ShaderMap 0x0000023800C34B80 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.32.57:944][798]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x0000023800C34B80
+[2017.07.21-05.32.57:945][798]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.33.00:435][854]Cmd: TRANSACTION UNDO
+[2017.07.21-05.33.00:435][854]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.33.00:477][854]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.33.00:477][854]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.33.00:490][854]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.33.00:492][854]LogTemp:Display: Added material ShaderMap 0x0000023825AEE780 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.33.00:514][854]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x0000023825AEE780
+[2017.07.21-05.33.00:514][854]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.33.00:814][861]LogTemp:Display: Finished compile of shader map 0x0000023800C34B80
+[2017.07.21-05.33.00:814][861]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x0000023800C34B80, marking material M_Landscape as finished
+[2017.07.21-05.33.00:814][861]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.33.03:272][916]LogTemp:Display: Finished compile of shader map 0x0000023825AEE780
+[2017.07.21-05.33.03:272][916]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x0000023825AEE780, marking material M_Landscape as finished
+[2017.07.21-05.33.03:272][916]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.33.03:281][917]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.33.03:281][917]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.33.03:281][917]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.33.03:281][917]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.33.06:713][  3]Cmd: TRANSACTION UNDO
+[2017.07.21-05.33.06:713][  3]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.33.06:757][  3]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.33.06:757][  3]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.33.06:768][  3]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.33.06:771][  3]LogTemp:Display: Added material ShaderMap 0x0000023825AEDD00 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.33.06:793][  3]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x0000023825AEDD00
+[2017.07.21-05.33.06:793][  3]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.33.10:151][ 80]LogTemp:Display: Finished compile of shader map 0x0000023825AEDD00
+[2017.07.21-05.33.10:151][ 80]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x0000023825AEDD00, marking material M_Landscape as finished
+[2017.07.21-05.33.10:151][ 80]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.33.10:188][ 81]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.33.10:188][ 81]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.33.10:188][ 81]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.33.10:188][ 81]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.33.17:244][257]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.33.17:265][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.33.17:266][257]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:33:17)
+[2017.07.21-05.33.17:266][257]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.33.17:295][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028618s)
+[2017.07.21-05.33.17:296][257]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.33.17:297][257]LogPlayLevel: PIE: World Init took: (0.001774s)
+[2017.07.21-05.33.17:297][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.030896s)
+[2017.07.21-05.33.17:356][257]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.33.17:387][257]LogInit: FAudioDevice initialized.
+[2017.07.21-05.33.17:429][257]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.33.17:433][257]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 60) at 2017.07.21-02.33.17
+[2017.07.21-05.33.17:434][257]LogWorld: Bringing up level for play took: 0.004158
+[2017.07.21-05.33.17:440][257]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 -0,741
+[2017.07.21-05.34.50:884][616]Cmd: TRANSACTION UNDO
+[2017.07.21-05.34.50:884][616]LogEditorTransaction: Undo Edição de Paisagem: Pintura
+[2017.07.21-05.34.50:927][616]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.34.50:935][616]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.34.50:975][616]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.34.50:978][616]LogTemp:Display: Added material ShaderMap 0x000002382B5CF580 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.34.51:003][616]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382B5CF580
+[2017.07.21-05.34.51:004][616]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.34.55:564][717]LogTemp:Display: Finished compile of shader map 0x000002382B5CF580
+[2017.07.21-05.34.55:564][717]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382B5CF580, marking material M_Landscape as finished
+[2017.07.21-05.34.55:564][717]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.34.55:575][718]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.34.55:575][718]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.34.55:575][718]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.34.55:575][718]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.35.30:003][562]Cmd: TRANSACTION UNDO
+[2017.07.21-05.35.30:003][562]LogEditorTransaction: Undo Edição de Paisagem: Esculpir
+[2017.07.21-05.35.30:052][562]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.30:064][562]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.35.30:085][562]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.35.30:090][562]LogTemp:Display: Added material ShaderMap 0x000002382B735D00 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.35.30:135][562]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382B735D00
+[2017.07.21-05.35.30:135][562]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.32:071][601]Cmd: TRANSACTION UNDO
+[2017.07.21-05.35.32:071][601]LogEditorTransaction: Undo Edição de Paisagem: Esculpir
+[2017.07.21-05.35.32:128][601]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.32:146][601]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.35.32:150][601]LogTemp:Display: Added material ShaderMap 0x0000023808A38F00 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.35.32:188][601]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x0000023808A38F00
+[2017.07.21-05.35.32:189][601]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.32:960][619]LogTemp:Display: Finished compile of shader map 0x000002382B735D00
+[2017.07.21-05.35.32:960][619]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382B735D00, marking material M_Landscape as finished
+[2017.07.21-05.35.32:960][619]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.35.36:247][692]LogTemp:Display: Finished compile of shader map 0x0000023808A38F00
+[2017.07.21-05.35.36:247][692]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x0000023808A38F00, marking material M_Landscape as finished
+[2017.07.21-05.35.36:247][692]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.35.36:262][693]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.35.36:262][693]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.35.36:262][693]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.35.36:262][693]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.35.45:159][911]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.07.21-05.35.45:654][920]Cmd: TRANSACTION UNDO
+[2017.07.21-05.35.45:654][920]LogEditorTransaction: Undo Clicando nos Atores (menu de contexto)
+[2017.07.21-05.35.45:705][920]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.35.45:708][920]LogTemp:Display: Added material ShaderMap 0x0000023825D0E400 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.35.45:736][920]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x0000023825D0E400
+[2017.07.21-05.35.45:736][920]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.47:235][951]Cmd: TRANSACTION UNDO
+[2017.07.21-05.35.47:235][951]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.35.47:281][951]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.47:288][951]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.35.47:298][951]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.35.47:301][951]LogTemp:Display: Added material ShaderMap 0x000002382B299600 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.35.47:331][951]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382B299600
+[2017.07.21-05.35.47:332][951]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.47:846][964]Cmd: TRANSACTION UNDO
+[2017.07.21-05.35.47:846][964]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.35.47:893][964]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.47:893][964]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.47:899][964]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.35.47:909][964]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.35.47:912][964]LogTemp:Display: Added material ShaderMap 0x0000023808A55600 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.35.47:944][964]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x0000023808A55600
+[2017.07.21-05.35.47:944][964]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.47:946][964]LogTemp:Display: Finished compile of shader map 0x0000023825D0E400
+[2017.07.21-05.35.47:946][964]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x0000023825D0E400, marking material M_Landscape as finished
+[2017.07.21-05.35.47:946][964]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.35.48:725][984]LogTemp:Display: Finished compile of shader map 0x000002382B299600
+[2017.07.21-05.35.48:725][984]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382B299600, marking material M_Landscape as finished
+[2017.07.21-05.35.48:725][984]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.35.48:929][989]Cmd: TRANSACTION UNDO
+[2017.07.21-05.35.48:929][989]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.35.48:975][989]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.48:981][989]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.35.48:989][989]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.35.48:992][989]LogTemp:Display: Added material ShaderMap 0x00000238250CB580 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.35.49:018][989]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x00000238250CB580
+[2017.07.21-05.35.49:019][989]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.49:322][997]LogTemp:Display: Finished compile of shader map 0x0000023808A55600
+[2017.07.21-05.35.49:322][997]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x0000023808A55600, marking material M_Landscape as finished
+[2017.07.21-05.35.49:322][997]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.35.49:526][  2]Cmd: TRANSACTION UNDO
+[2017.07.21-05.35.49:526][  2]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.35.49:571][  2]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.49:571][  2]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.49:576][  2]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.35.49:584][  2]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.35.49:586][  2]LogTemp:Display: Added material ShaderMap 0x000002380BFB4100 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.35.49:609][  2]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002380BFB4100
+[2017.07.21-05.35.49:609][  2]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.49:826][  9]LogTemp:Display: Finished compile of shader map 0x00000238250CB580
+[2017.07.21-05.35.49:826][  9]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x00000238250CB580, marking material M_Landscape as finished
+[2017.07.21-05.35.49:826][  9]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.35.52:181][ 66]Cmd: TRANSACTION UNDO
+[2017.07.21-05.35.52:181][ 66]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.35.52:224][ 66]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.52:224][ 66]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.52:229][ 66]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.35.52:236][ 66]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.35.52:239][ 66]LogTemp:Display: Added material ShaderMap 0x000002380C3B4800 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.35.52:262][ 66]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002380C3B4800
+[2017.07.21-05.35.52:262][ 66]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.53:102][ 87]LogTemp:Display: Finished compile of shader map 0x000002380BFB4100
+[2017.07.21-05.35.53:102][ 87]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002380BFB4100, marking material M_Landscape as finished
+[2017.07.21-05.35.53:102][ 87]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.35.54:351][117]Cmd: TRANSACTION UNDO
+[2017.07.21-05.35.54:351][117]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.35.54:396][117]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.54:397][117]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.54:409][117]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.35.54:411][117]LogTemp:Display: Added material ShaderMap 0x000002382B3E5280 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.35.54:433][117]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382B3E5280
+[2017.07.21-05.35.54:433][117]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.55:106][133]LogTemp:Display: Finished compile of shader map 0x000002380C3B4800
+[2017.07.21-05.35.55:106][133]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002380C3B4800, marking material M_Landscape as finished
+[2017.07.21-05.35.55:106][133]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.35.57:710][196]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.07.21-05.35.58:090][203]Cmd: TRANSACTION UNDO
+[2017.07.21-05.35.58:090][203]LogEditorTransaction: Undo Clicando nos Atores (menu de contexto)
+[2017.07.21-05.35.58:139][203]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.35.58:141][203]LogTemp:Display: Added material ShaderMap 0x0000023808A38800 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.35.58:163][203]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x0000023808A38800
+[2017.07.21-05.35.58:163][203]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.35.58:548][210]LogTemp:Display: Finished compile of shader map 0x000002382B3E5280
+[2017.07.21-05.35.58:548][210]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382B3E5280, marking material M_Landscape as finished
+[2017.07.21-05.35.58:548][210]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.36.00:130][244]Cmd: TRANSACTION UNDO
+[2017.07.21-05.36.00:130][244]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.36.00:175][244]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.36.00:179][244]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.36.00:181][244]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.36.00:181][244]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.36.00:182][244]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.36.00:189][244]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.36.00:191][244]LogTemp:Display: Added material ShaderMap 0x000002381D6B0800 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.36.00:212][244]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002381D6B0800
+[2017.07.21-05.36.00:213][244]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.36.00:536][252]LogTemp:Display: Finished compile of shader map 0x0000023808A38800
+[2017.07.21-05.36.00:536][252]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x0000023808A38800, marking material M_Landscape as finished
+[2017.07.21-05.36.00:536][252]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.36.01:073][265]Cmd: TRANSACTION UNDO
+[2017.07.21-05.36.01:073][265]LogEditorTransaction: Undo Edição de Paisagem: Suave
+[2017.07.21-05.36.01:124][265]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.36.01:124][265]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.36.01:125][265]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.36.01:131][265]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.36.01:133][265]LogTemp:Display: Added material ShaderMap 0x0000023808A38F00 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.36.01:154][265]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x0000023808A38F00
+[2017.07.21-05.36.01:154][265]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.36.01:419][272]LogTemp:Display: Finished compile of shader map 0x000002381D6B0800
+[2017.07.21-05.36.01:419][272]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002381D6B0800, marking material M_Landscape as finished
+[2017.07.21-05.36.01:419][272]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.36.04:706][346]LogTemp:Display: Finished compile of shader map 0x0000023808A38F00
+[2017.07.21-05.36.04:706][346]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x0000023808A38F00, marking material M_Landscape as finished
+[2017.07.21-05.36.04:706][346]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.36.04:745][347]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.36.04:745][347]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.36.04:745][347]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.36.04:745][347]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.36.07:069][404]Cmd: TRANSACTION UNDO
+[2017.07.21-05.36.07:069][404]LogEditorTransaction: Undo Edição de Paisagem: Esculpir
+[2017.07.21-05.36.07:114][404]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.36.07:132][404]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.36.07:136][404]LogTemp:Display: Added material ShaderMap 0x0000023808A39280 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.36.07:158][404]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x0000023808A39280
+[2017.07.21-05.36.07:158][404]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.36.10:334][480]LogTemp:Display: Finished compile of shader map 0x0000023808A39280
+[2017.07.21-05.36.10:334][480]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x0000023808A39280, marking material M_Landscape as finished
+[2017.07.21-05.36.10:334][480]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.36.10:375][481]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.36.10:375][481]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.36.10:375][481]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.36.10:375][481]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.36.18:135][672]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape)
+[2017.07.21-05.36.46:393][319]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.36.46:425][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.36.46:425][319]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:36:46)
+[2017.07.21-05.36.46:426][319]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.36.46:460][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034185s)
+[2017.07.21-05.36.46:461][319]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.36.46:462][319]LogPlayLevel: PIE: World Init took: (0.001949s)
+[2017.07.21-05.36.46:462][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.036678s)
+[2017.07.21-05.36.46:519][319]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.36.46:547][319]LogInit: FAudioDevice initialized.
+[2017.07.21-05.36.46:587][319]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.36.46:591][319]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 60) at 2017.07.21-02.36.46
+[2017.07.21-05.36.46:591][319]LogWorld: Bringing up level for play took: 0.003551
+[2017.07.21-05.36.46:596][319]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 0,415
+[2017.07.21-05.38.01:736][282]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 128X128) - 90 MB total VRAM
+[2017.07.21-05.38.01:740][282]LogTexture:Display: Building textures: Texture2D_40 (BGRA8, 32X32) - 90 MB total VRAM
+[2017.07.21-05.38.02:051][282]LogSavePackage: Save=325.45ms
+[2017.07.21-05.38.02:051][282]LogSavePackage: Moving '../../../../../../Users/tethe/Documents/TerraGrande/Saved/Ilha1_Auto1F1950ECA42759B761D4349975D3D8E6C.tmp' to '../../../../../../Users/tethe/Documents/TerraGrande/Saved/Autosaves/Game/ThirdPersonBP/Maps/Ilha1_Auto1.umap'
+[2017.07.21-05.38.02:060][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tethe/Documents/TerraGrande/Saved/Autosaves/Game/ThirdPersonBP/Maps/Ilha1_Auto1.umap
+[2017.07.21-05.38.02:136][282]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Ilha1' took 0.457
+[2017.07.21-05.38.02:136][282]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.457
+[2017.07.21-05.38.08:450][426]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.21-05.38.09:445][444]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.21-05.38.10:757][471]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.07.21-05.38.14:571][560]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.21-05.38.17:165][621]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.21-05.38.17:615][628]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2017.07.21-05.38.22:766][744]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.21-05.38.24:282][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Ilha1" FILE="../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/Ilha1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.21-05.38.24:581][778]LogSavePackage: Save=238.26ms
+[2017.07.21-05.38.24:581][778]LogSavePackage: Moving '../../../../../../Users/tethe/Documents/TerraGrande/Saved/Ilha14D77EDA8479F36219B0476836C715F68.tmp' to '../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/Ilha1.umap'
+[2017.07.21-05.38.24:599][778]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/Ilha1.umap
+[2017.07.21-05.38.24:658][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Ilha1_BuiltData" FILE="../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/Ilha1_BuiltData.uasset" SILENT=true
+[2017.07.21-05.38.24:787][778]LogSavePackage: Save=77.62ms
+[2017.07.21-05.38.24:787][778]LogSavePackage: Moving '../../../../../../Users/tethe/Documents/TerraGrande/Saved/Ilha1_BuiltDataF681EB204024652933511A93BB028A98.tmp' to '../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/Ilha1_BuiltData.uasset'
+[2017.07.21-05.38.24:794][778]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/Ilha1_BuiltData.uasset
+[2017.07.21-05.38.25:575][799]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.38.25:592][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.38.25:592][799]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:38:25)
+[2017.07.21-05.38.25:592][799]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.38.25:612][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018824s)
+[2017.07.21-05.38.25:612][799]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.38.25:612][799]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2017.07.21-05.38.25:612][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.020034s)
+[2017.07.21-05.38.25:646][799]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.38.25:663][799]LogInit: FAudioDevice initialized.
+[2017.07.21-05.38.25:706][799]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.38.25:709][799]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 60) at 2017.07.21-02.38.25
+[2017.07.21-05.38.25:709][799]LogWorld: Bringing up level for play took: 0.002266
+[2017.07.21-05.38.25:712][799]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 -0,469
+[2017.07.21-05.40.48:549][290]Cmd: TRANSACTION UNDO
+[2017.07.21-05.40.48:549][290]LogEditorTransaction: Undo Edição de Paisagem: Pintura
+[2017.07.21-05.40.48:597][290]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.40.48:598][290]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.40.48:599][290]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.40.48:672][290]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.40.48:675][290]LogTemp:Display: Added material ShaderMap 0x000002382B415280 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.40.48:701][290]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382B415280
+[2017.07.21-05.40.48:701][290]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.40.52:831][385]Cmd: TRANSACTION UNDO
+[2017.07.21-05.40.52:831][385]LogEditorTransaction: Undo Edição de Paisagem: Pintura
+[2017.07.21-05.40.52:878][385]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.40.52:879][385]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.40.52:879][385]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.40.52:943][385]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.40.52:946][385]LogTemp:Display: Added material ShaderMap 0x000002382C462080 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.40.52:973][385]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382C462080
+[2017.07.21-05.40.52:973][385]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.40.53:516][398]LogTemp:Display: Finished compile of shader map 0x000002382B415280
+[2017.07.21-05.40.53:516][398]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382B415280, marking material M_Landscape as finished
+[2017.07.21-05.40.53:517][398]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.40.56:152][460]LogTemp:Display: Finished compile of shader map 0x000002382C462080
+[2017.07.21-05.40.56:152][460]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382C462080, marking material M_Landscape as finished
+[2017.07.21-05.40.56:152][460]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.40.56:167][461]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.40.56:167][461]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.40.56:167][461]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.40.56:167][461]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.40.57:195][486]Cmd: TRANSACTION UNDO
+[2017.07.21-05.40.57:195][486]LogEditorTransaction: Undo Edição de Paisagem: Pintura
+[2017.07.21-05.40.57:240][486]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.40.57:240][486]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.40.57:241][486]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.40.57:279][486]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.40.57:280][486]LogTemp:Display: Added material ShaderMap 0x000002382C2BF200 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.40.57:295][486]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382C2BF200
+[2017.07.21-05.40.57:296][486]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.40.59:972][548]LogTemp:Display: Finished compile of shader map 0x000002382C2BF200
+[2017.07.21-05.40.59:972][548]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382C2BF200, marking material M_Landscape as finished
+[2017.07.21-05.40.59:972][548]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.40.59:984][549]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.40.59:984][549]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.40.59:984][549]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.40.59:984][549]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.41.05:775][696]Cmd: TRANSACTION UNDO
+[2017.07.21-05.41.05:775][696]LogEditorTransaction: Undo Edição de Paisagem: Pintura
+[2017.07.21-05.41.05:825][696]LogTexture:Display: Building textures: Texture2D_47 (BGRA8, 32X32) - 90 MB total VRAM
+[2017.07.21-05.41.05:826][696]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.05:828][696]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.05:837][696]LogTexture:Display: Building textures: Texture2D_49 (BGRA8, 32X32) - 90 MB total VRAM
+[2017.07.21-05.41.05:919][696]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.41.05:923][696]LogTemp:Display: Added material ShaderMap 0x000002382C07DD00 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.41.05:955][696]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382C07DD00
+[2017.07.21-05.41.05:956][696]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.10:911][815]LogTemp:Display: Finished compile of shader map 0x000002382C07DD00
+[2017.07.21-05.41.10:911][815]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382C07DD00, marking material M_Landscape as finished
+[2017.07.21-05.41.10:911][815]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.41.10:923][816]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.41.10:923][816]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.41.10:923][816]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.41.10:923][816]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.41.14:982][925]Cmd: TRANSACTION UNDO
+[2017.07.21-05.41.14:982][925]LogEditorTransaction: Undo Edição de Paisagem: Pintura
+[2017.07.21-05.41.15:024][925]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.15:030][925]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.15:031][925]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.15:081][925]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.41.15:084][925]LogTemp:Display: Added material ShaderMap 0x000002382BE47900 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.41.15:103][925]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382BE47900
+[2017.07.21-05.41.15:103][925]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.17:949][995]LogTemp:Display: Finished compile of shader map 0x000002382BE47900
+[2017.07.21-05.41.17:949][995]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382BE47900, marking material M_Landscape as finished
+[2017.07.21-05.41.17:949][995]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.41.17:984][996]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.41.17:984][996]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.41.17:984][996]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.41.17:984][996]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.41.18:140][  0]Cmd: TRANSACTION UNDO
+[2017.07.21-05.41.18:140][  0]LogEditorTransaction: Undo Edição de Paisagem: Pintura
+[2017.07.21-05.41.18:192][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.18:194][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.18:310][  0]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.41.18:312][  0]LogTemp:Display: Added material ShaderMap 0x00000238243F4100 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.41.18:334][  0]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x00000238243F4100
+[2017.07.21-05.41.18:334][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.20:476][ 54]Cmd: TRANSACTION UNDO
+[2017.07.21-05.41.20:476][ 54]LogEditorTransaction: Undo Edição de Paisagem: Pintura
+[2017.07.21-05.41.20:513][ 54]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.20:514][ 54]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.20:567][ 54]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.41.20:569][ 54]LogTemp:Display: Added material ShaderMap 0x000002382CD7C800 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.41.20:591][ 54]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382CD7C800
+[2017.07.21-05.41.20:591][ 54]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.21:079][ 67]LogTemp:Display: Finished compile of shader map 0x00000238243F4100
+[2017.07.21-05.41.21:080][ 67]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x00000238243F4100, marking material M_Landscape as finished
+[2017.07.21-05.41.21:080][ 67]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.41.21:629][ 81]Cmd: TRANSACTION UNDO
+[2017.07.21-05.41.21:629][ 81]LogEditorTransaction: Undo Edição de Paisagem: Pintura
+[2017.07.21-05.41.21:668][ 81]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.21:723][ 81]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.41.21:725][ 81]LogTemp:Display: Added material ShaderMap 0x000002382CB34100 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.41.21:748][ 81]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382CB34100
+[2017.07.21-05.41.21:748][ 81]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.22:418][ 98]LogTemp:Display: Finished compile of shader map 0x000002382CD7C800
+[2017.07.21-05.41.22:418][ 98]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382CD7C800, marking material M_Landscape as finished
+[2017.07.21-05.41.22:418][ 98]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.41.22:454][ 99]Cmd: TRANSACTION UNDO
+[2017.07.21-05.41.22:454][ 99]LogEditorTransaction: Undo Edição de Paisagem: Pintura
+[2017.07.21-05.41.22:499][ 99]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.22:500][ 99]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.22:501][ 99]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.22:555][ 99]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.41.22:557][ 99]LogTemp:Display: Added material ShaderMap 0x000002382C829280 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.41.22:579][ 99]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382C829280
+[2017.07.21-05.41.22:579][ 99]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.22:939][109]LogTemp:Display: Finished compile of shader map 0x000002382CB34100
+[2017.07.21-05.41.22:939][109]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382CB34100, marking material M_Landscape as finished
+[2017.07.21-05.41.22:939][109]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.41.25:810][182]LogTemp:Display: Finished compile of shader map 0x000002382C829280
+[2017.07.21-05.41.25:811][182]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382C829280, marking material M_Landscape as finished
+[2017.07.21-05.41.25:811][182]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.41.25:822][183]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.41.25:822][183]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.41.25:822][183]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.41.25:822][183]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.41.28:113][244]Cmd: TRANSACTION UNDO
+[2017.07.21-05.41.28:113][244]LogEditorTransaction: Undo Edição de Paisagem: Pintura
+[2017.07.21-05.41.28:152][244]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.28:152][244]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.28:195][244]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-05.41.28:196][244]LogTemp:Display: Added material ShaderMap 0x000002382AD9FC80 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-05.41.28:211][244]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382AD9FC80
+[2017.07.21-05.41.28:211][244]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-05.41.32:015][339]LogTemp:Display: Finished compile of shader map 0x000002382AD9FC80
+[2017.07.21-05.41.32:015][339]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382AD9FC80, marking material M_Landscape as finished
+[2017.07.21-05.41.32:015][339]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-05.41.32:025][340]MaterialEditorStats: Informações Base pass shader with static lighting: 149 instructions
+[2017.07.21-05.41.32:025][340]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 123 instructions
+[2017.07.21-05.41.32:025][340]MaterialEditorStats: Informações Vertex shader: 31 instructions
+[2017.07.21-05.41.32:025][340]MaterialEditorStats: Informações Texture samplers: 9/16
+[2017.07.21-05.41.37:016][473]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.21-05.41.37:037][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.21-05.41.37:037][473]PIE: New page: Sessão de PIE : Ilha1 (20/07/2017 23:41:37)
+[2017.07.21-05.41.37:038][473]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1
+[2017.07.21-05.41.37:062][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024394s)
+[2017.07.21-05.41.37:063][473]LogAIModule: Creating AISystem for world Ilha1
+[2017.07.21-05.41.37:064][473]LogPlayLevel: PIE: World Init took: (0.001720s)
+[2017.07.21-05.41.37:064][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Ilha1.Ilha1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 (0.026534s)
+[2017.07.21-05.41.37:189][473]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.21-05.41.37:217][473]LogInit: FAudioDevice initialized.
+[2017.07.21-05.41.37:306][473]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.21-05.41.37:315][473]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1.Ilha1 up for play (max tick rate 0) at 2017.07.21-02.41.37
+[2017.07.21-05.41.37:315][473]LogWorld: Bringing up level for play took: 0.008107
+[2017.07.21-05.41.37:320][473]PIE: Informações Momento de início de reprodução no editor para /Game/ThirdPersonBP/Maps/UEDPIE_0_Ilha1 1,139
+[2017.07.21-14.05.38:855][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Ilha1" FILE="../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/Ilha1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.21-14.05.38:993][881]LogTexture:Display: Building textures: Texture2D_49 (BGRA8, 32X32) - 90 MB total VRAM
+[2017.07.21-14.05.39:004][881]LogTexture:Display: Building textures: Texture2D_47 (BGRA8, 32X32) - 90 MB total VRAM
+[2017.07.21-14.05.39:298][881]LogSavePackage: Save=315.59ms
+[2017.07.21-14.05.39:298][881]LogSavePackage: Moving '../../../../../../Users/tethe/Documents/TerraGrande/Saved/Ilha15EFAA3804FB2DE5C3D93C188BF279B4D.tmp' to '../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/Ilha1.umap'
+[2017.07.21-14.05.39:317][881]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/Ilha1.umap
+[2017.07.21-14.05.39:368][881]LogFileHelpers: Saving map 'Ilha1' took 0.985
+[2017.07.21-14.05.51:619][ 18]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-14.05.51:621][ 18]LogTemp:Display: Added material ShaderMap 0x00000238257C1980 with Material 0x000002381FF12E80 to ShaderMapsBeingCompiled
+[2017.07.21-14.05.51:672][ 18]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x00000238257C1980
+[2017.07.21-14.05.51:673][ 18]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.21-14.05.51:754][ 18]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-14.05.51:760][ 18]LogTemp:Display: Added material ShaderMap 0x000002380890E780 with Material 0x00000238013C5A80 to ShaderMapsBeingCompiled
+[2017.07.21-14.05.51:941][ 18]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002380890E780
+[2017.07.21-14.05.51:963][ 18]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-14.05.51:967][ 18]LogTemp:Display: Added material ShaderMap 0x000002382B553900 with Material 0x00000238013C5A80 to ShaderMapsBeingCompiled
+[2017.07.21-14.05.52:055][ 18]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382B553900
+[2017.07.21-14.05.52:088][ 18]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-14.05.52:093][ 18]LogTemp:Display: Added material ShaderMap 0x000002382DCDF900 with Material 0x00000238010FA380 to ShaderMapsBeingCompiled
+[2017.07.21-14.05.52:112][ 18]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382DCDF900
+[2017.07.21-14.05.52:134][ 18]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-14.05.52:138][ 18]LogTemp:Display: Added material ShaderMap 0x000002382DCDC480 with Material 0x00000238010F8880 to ShaderMapsBeingCompiled
+[2017.07.21-14.05.52:160][ 18]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382DCDC480
+[2017.07.21-14.05.52:172][ 18]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-14.05.52:178][ 18]LogTemp:Display: Added material ShaderMap 0x000002380B54E080 with Material 0x00000238013E0D00 to ShaderMapsBeingCompiled
+[2017.07.21-14.05.52:206][ 18]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002380B54E080
+[2017.07.21-14.05.52:214][ 18]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-14.05.52:218][ 18]LogTemp:Display: Added material ShaderMap 0x000002382D9D9D00 with Material 0x00000238014EFD00 to ShaderMapsBeingCompiled
+[2017.07.21-14.05.52:249][ 18]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382D9D9D00
+[2017.07.21-14.05.52:300][ 18]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-14.05.52:306][ 18]LogTemp:Display: Added material ShaderMap 0x000002382D95A400 with Material 0x00000238014F7700 to ShaderMapsBeingCompiled
+[2017.07.21-14.05.52:481][ 18]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382D95A400
+[2017.07.21-14.05.52:520][ 18]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-14.05.52:527][ 18]LogTemp:Display: Added material ShaderMap 0x000002382E185280 with Material 0x00000238008EB280 to ShaderMapsBeingCompiled
+[2017.07.21-14.05.52:714][ 18]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382E185280
+[2017.07.21-14.05.52:748][ 18]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-14.05.52:752][ 18]LogTemp:Display: Added material ShaderMap 0x000002382E9B8480 with Material 0x00000238014F4E80 to ShaderMapsBeingCompiled
+[2017.07.21-14.05.52:910][ 18]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382E9B8480
+[2017.07.21-14.05.52:935][ 18]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-14.05.52:940][ 18]LogTemp:Display: Added material ShaderMap 0x000002382F143580 with Material 0x00000238013D6C80 to ShaderMapsBeingCompiled
+[2017.07.21-14.05.53:091][ 18]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382F143580
+[2017.07.21-14.05.53:100][ 18]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-14.05.53:104][ 18]LogTemp:Display: Added material ShaderMap 0x000002382F966780 with Material 0x0000023801500400 to ShaderMapsBeingCompiled
+[2017.07.21-14.05.53:231][ 18]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002382F966780
+[2017.07.21-14.05.53:233][ 18]LogMaterial: 1.17 seconds spent updating 1 materials, 1 interfaces, 0 instances, 9 with static permutations.
+[2017.07.21-14.05.53:608][ 18]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Landscape, compiling. 
+[2017.07.21-14.05.53:612][ 18]LogTemp:Display: Added material ShaderMap 0x0000023830132780 with Material 0x0000023830147700 to ShaderMapsBeingCompiled
+[2017.07.21-14.06.01:263][ 18]LogTemp:Display: Finished compile of shader map 0x0000023830132780
+[2017.07.21-14.06.01:263][ 18]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Landscape complete, GameThreadShaderMap 0x0000023830132780, marking material FDebugViewModeMaterialProxy M_Landscape as finished
+[2017.07.21-14.06.01:263][ 18]LogTemp:Display: Marking material as finished 0x0000023830147700
+[2017.07.21-14.06.01:680][ 18]TextureStreamingBuild:Display: Compiling optional shaders took 8.200 seconds.
+[2017.07.21-14.11.19:549][ 18]LogTemp:Display: Finished compile of shader map 0x000002382B553900
+[2017.07.21-14.11.19:549][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382B553900, marking material M_Landscape as finished
+[2017.07.21-14.11.19:549][ 18]LogTemp:Display: Marking material as finished 0x00000238013C5A80
+[2017.07.21-14.11.19:579][ 18]LogMaterial: Missing cached shader map for material M_Landscape, compiling. 
+[2017.07.21-14.11.19:580][ 18]LogTemp:Display: Added material ShaderMap 0x000002380B60DD00 with Material 0x000002382645D600 to ShaderMapsBeingCompiled
+[2017.07.21-14.11.19:589][ 18]LogTemp:Display: Kicking off shader compilation for M_Landscape, GameThreadShaderMap 0x000002380B60DD00
+[2017.07.21-14.11.19:592][ 18]LogTemp:Display: Added shader map 0x000002382D9D9D00 from material 0x000002382645D600
+[2017.07.21-14.11.19:592][ 18]LogTemp:Display: Found existing compiling shader for material M_Landscape, linking to other GameThreadShaderMap 0x000002382D9D9D00
+[2017.07.21-14.11.19:593][ 18]LogTemp:Display: Added shader map 0x000002382D9D9D00 from material 0x000002382645D600
+[2017.07.21-14.11.19:593][ 18]LogTemp:Display: Found existing compiling shader for material M_Landscape, linking to other GameThreadShaderMap 0x000002382D9D9D00
+[2017.07.21-14.11.19:594][ 18]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.07.21-14.11.19:598][ 18]LogTemp:Display: Added shader map 0x000002380B60DD00 from material 0x000002382645FA00
+[2017.07.21-14.11.19:598][ 18]LogTemp:Display: Found existing compiling shader for material M_Landscape, linking to other GameThreadShaderMap 0x000002380B60DD00
+[2017.07.21-14.11.19:599][ 18]LogTemp:Display: Added shader map 0x000002380B54E080 from material 0x000002382645FA00
+[2017.07.21-14.11.19:599][ 18]LogTemp:Display: Found existing compiling shader for material M_Landscape, linking to other GameThreadShaderMap 0x000002380B54E080
+[2017.07.21-14.11.19:602][ 18]LogTemp:Display: Added shader map 0x000002380B54E080 from material 0x000002382645FA00
+[2017.07.21-14.11.19:602][ 18]LogTemp:Display: Found existing compiling shader for material M_Landscape, linking to other GameThreadShaderMap 0x000002380B54E080
+[2017.07.21-14.11.19:602][ 18]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.07.21-14.11.19:606][ 18]LogTemp:Display: Added shader map 0x000002380B60DD00 from material 0x0000023825A01600
+[2017.07.21-14.11.19:606][ 18]LogTemp:Display: Found existing compiling shader for material M_Landscape, linking to other GameThreadShaderMap 0x000002380B60DD00
+[2017.07.21-14.11.19:608][ 18]LogTemp:Display: Added shader map 0x000002382DCDC480 from material 0x0000023825A01600
+[2017.07.21-14.11.19:608][ 18]LogTemp:Display: Found existing compiling shader for material M_Landscape, linking to other GameThreadShaderMap 0x000002382DCDC480
+[2017.07.21-14.11.19:609][ 18]LogTemp:Display: Added shader map 0x000002382DCDC480 from material 0x0000023825A01600
+[2017.07.21-14.11.19:609][ 18]LogTemp:Display: Found existing compiling shader for material M_Landscape, linking to other GameThreadShaderMap 0x000002382DCDC480
+[2017.07.21-14.11.19:610][ 18]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.07.21-14.11.19:612][ 18]LogTemp:Display: Added shader map 0x000002380B60DD00 from material 0x000002382DD83880
+[2017.07.21-14.11.19:612][ 18]LogTemp:Display: Found existing compiling shader for material M_Landscape, linking to other GameThreadShaderMap 0x000002380B60DD00
+[2017.07.21-14.11.19:615][ 18]LogTemp:Display: Added shader map 0x000002382DCDF900 from material 0x000002382DD83880
+[2017.07.21-14.11.19:615][ 18]LogTemp:Display: Found existing compiling shader for material M_Landscape, linking to other GameThreadShaderMap 0x000002382DCDF900
+[2017.07.21-14.11.19:616][ 18]LogTemp:Display: Added shader map 0x000002382DCDF900 from material 0x000002382DD83880
+[2017.07.21-14.11.19:616][ 18]LogTemp:Display: Found existing compiling shader for material M_Landscape, linking to other GameThreadShaderMap 0x000002382DCDF900
+[2017.07.21-14.11.19:618][ 18]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.07.21-14.11.19:695][ 18]LogTemp:Display: Finished compile of shader map 0x000002382F966780
+[2017.07.21-14.11.19:695][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382F966780, marking material M_Landscape as finished
+[2017.07.21-14.11.19:695][ 18]LogTemp:Display: Marking material as finished 0x0000023801500400
+[2017.07.21-14.11.19:718][ 18]LogTemp:Display: Finished compile of shader map 0x000002382F143580
+[2017.07.21-14.11.19:718][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382F143580, marking material M_Landscape as finished
+[2017.07.21-14.11.19:718][ 18]LogTemp:Display: Marking material as finished 0x00000238013D6C80
+[2017.07.21-14.11.19:744][ 18]LogTemp:Display: Finished compile of shader map 0x000002382E9B8480
+[2017.07.21-14.11.19:744][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382E9B8480, marking material M_Landscape as finished
+[2017.07.21-14.11.19:744][ 18]LogTemp:Display: Marking material as finished 0x00000238014F4E80
+[2017.07.21-14.11.19:775][ 18]LogTemp:Display: Finished compile of shader map 0x000002382E185280
+[2017.07.21-14.11.19:775][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382E185280, marking material M_Landscape as finished
+[2017.07.21-14.11.19:775][ 18]LogTemp:Display: Marking material as finished 0x00000238008EB280
+[2017.07.21-14.11.19:800][ 18]LogTemp:Display: Finished compile of shader map 0x000002382D95A400
+[2017.07.21-14.11.19:800][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382D95A400, marking material M_Landscape as finished
+[2017.07.21-14.11.19:800][ 18]LogTemp:Display: Marking material as finished 0x00000238014F7700
+[2017.07.21-14.11.19:809][ 18]LogTemp:Display: Finished compile of shader map 0x000002382D9D9D00
+[2017.07.21-14.11.19:809][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382D9D9D00, marking material M_Landscape as finished
+[2017.07.21-14.11.19:809][ 18]LogTemp:Display: Marking material as finished 0x00000238014EFD00
+[2017.07.21-14.11.19:811][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382D9D9D00, marking material M_Landscape as finished
+[2017.07.21-14.11.19:811][ 18]LogTemp:Display: Marking material as finished 0x000002382645D600
+[2017.07.21-14.11.19:816][ 18]LogTemp:Display: Finished compile of shader map 0x000002380B54E080
+[2017.07.21-14.11.19:816][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002380B54E080, marking material M_Landscape as finished
+[2017.07.21-14.11.19:816][ 18]LogTemp:Display: Marking material as finished 0x00000238013E0D00
+[2017.07.21-14.11.19:818][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002380B54E080, marking material M_Landscape as finished
+[2017.07.21-14.11.19:818][ 18]LogTemp:Display: Marking material as finished 0x000002382645FA00
+[2017.07.21-14.11.19:823][ 18]LogTemp:Display: Finished compile of shader map 0x000002382DCDC480
+[2017.07.21-14.11.19:823][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382DCDC480, marking material M_Landscape as finished
+[2017.07.21-14.11.19:823][ 18]LogTemp:Display: Marking material as finished 0x00000238010F8880
+[2017.07.21-14.11.19:825][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382DCDC480, marking material M_Landscape as finished
+[2017.07.21-14.11.19:825][ 18]LogTemp:Display: Marking material as finished 0x0000023825A01600
+[2017.07.21-14.11.19:828][ 18]LogTemp:Display: Finished compile of shader map 0x00000238257C1980
+[2017.07.21-14.11.19:828][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x00000238257C1980, marking material M_Landscape as finished
+[2017.07.21-14.11.19:828][ 18]LogTemp:Display: Marking material as finished 0x000002381FF12E80
+[2017.07.21-14.11.19:835][ 18]LogTemp:Display: Finished compile of shader map 0x000002382DCDF900
+[2017.07.21-14.11.19:835][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382DCDF900, marking material M_Landscape as finished
+[2017.07.21-14.11.19:835][ 18]LogTemp:Display: Marking material as finished 0x00000238010FA380
+[2017.07.21-14.11.19:837][ 18]LogTemp:Display: Shader map M_Landscape complete, GameThreadShaderMap 0x000002382DCDF900, marking material M_Landscape as finished
+[2017.07.21-14.11.19:837][ 18]LogTemp:Display: Marking material as finished 0x000002382DD83880
+[2017.07.21-14.11.20:119][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/M_Landscape" FILE="../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/M_Landscape.uasset" SILENT=true
+[2017.07.21-14.11.20:524][ 18]LogSavePackage: Save=92.30ms
+[2017.07.21-14.11.20:524][ 18]LogSavePackage: Moving '../../../../../../Users/tethe/Documents/TerraGrande/Saved/M_Landscape79F2477D402632AC09E28EAD358B1BAD.tmp' to '../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/M_Landscape.uasset'
+[2017.07.21-14.11.20:535][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tethe/Documents/TerraGrande/Content/ThirdPersonBP/Maps/M_Landscape.uasset
+[2017.07.21-14.11.21:645][ 19]Cmd: QUIT_EDITOR
+[2017.07.21-14.11.22:675][ 19]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.21-14.11.22:903][ 19]LogExit: Preparing to exit.
+[2017.07.21-14.11.24:588][ 19]LogDirectoryWatcher: A directory notification for 'C:/Users/tethe/Documents/TerraGrande/Content/' was aborted.
+[2017.07.21-14.11.24:895][ 19]LogExit: Editor shut down
+[2017.07.21-14.11.24:897][ 19]LogExit: Transaction tracking system shut down
+[2017.07.21-14.11.24:901][ 19]LogTemp:Display: Removed shader map 0x000002380B60DD00 from material 0x000002382DD83880
+[2017.07.21-14.11.24:902][ 19]LogTemp:Display: Removed shader map 0x000002380B60DD00 from material 0x0000023825A01600
+[2017.07.21-14.11.24:902][ 19]LogTemp:Display: Removed shader map 0x000002380B60DD00 from material 0x000002382645FA00
+[2017.07.21-14.11.24:902][ 19]LogTemp:Display: Removed shader map 0x000002380B60DD00 from material 0x000002382645D600
+[2017.07.21-14.11.25:021][ 19]LogTemp:Display: Removed shader map 0x000002380890E780 from material 0x00000238013C5A80
+[2017.07.21-14.11.27:074][ 19]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.21-14.11.27:075][ 19]LogExit: Object subsystem successfully closed.
+[2017.07.21-14.11.27:350][ 19]LogD3D11RHI: Shutdown
+[2017.07.21-14.11.27:350][ 19]LogD3D11RHI: CleanupD3DDevice
+[2017.07.21-14.11.27:428][ 19]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.21-14.11.28:536][ 19]LogModuleManager: Shutting down and abandoning module MaterialEditor (502)
+[2017.07.21-14.11.28:536][ 19]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.07.21-14.11.28:536][ 19]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.07.21-14.11.28:548][ 19]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.07.21-14.11.28:548][ 19]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.07.21-14.11.28:548][ 19]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.07.21-14.11.28:559][ 19]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.07.21-14.11.28:567][ 19]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.07.21-14.11.28:567][ 19]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.07.21-14.11.28:567][ 19]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.07.21-14.11.28:623][ 19]LogDirectoryWatcher: A directory notification for 'C:/Users/tethe/Documents/TerraGrande/Content/Collections/' was aborted.
+[2017.07.21-14.11.28:624][ 19]LogDirectoryWatcher: A directory notification for 'C:/Users/tethe/Documents/TerraGrande/Content/Developers/tethe/Collections/' was aborted.
+[2017.07.21-14.11.28:624][ 19]LogDirectoryWatcher: A directory notification for 'C:/Users/tethe/Documents/TerraGrande/Saved/Collections/' was aborted.
+[2017.07.21-14.11.28:624][ 19]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.07.21-14.11.28:645][ 19]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.07.21-14.11.28:645][ 19]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.07.21-14.11.28:669][ 19]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.07.21-14.11.28:669][ 19]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.07.21-14.11.28:669][ 19]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.07.21-14.11.28:669][ 19]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.07.21-14.11.28:669][ 19]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.07.21-14.11.28:675][ 19]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.07.21-14.11.28:680][ 19]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.07.21-14.11.28:684][ 19]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.07.21-14.11.28:692][ 19]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.07.21-14.11.28:697][ 19]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.07.21-14.11.28:764][ 19]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.07.21-14.11.28:764][ 19]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.07.21-14.11.28:764][ 19]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.07.21-14.11.28:764][ 19]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.07.21-14.11.28:764][ 19]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.07.21-14.11.28:764][ 19]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.07.21-14.11.28:764][ 19]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.07.21-14.11.28:764][ 19]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.07.21-14.11.28:764][ 19]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.07.21-14.11.28:764][ 19]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.07.21-14.11.28:764][ 19]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.07.21-14.11.28:764][ 19]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.07.21-14.11.28:774][ 19]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.07.21-14.11.28:822][ 19]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.07.21-14.11.28:822][ 19]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.07.21-14.11.28:822][ 19]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.07.21-14.11.28:822][ 19]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.07.21-14.11.28:822][ 19]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.07.21-14.11.28:854][ 19]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.07.21-14.11.28:868][ 19]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.07.21-14.11.28:899][ 19]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.07.21-14.11.28:899][ 19]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.07.21-14.11.28:899][ 19]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.07.21-14.11.28:899][ 19]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.07.21-14.11.28:910][ 19]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.07.21-14.11.29:513][ 19]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.07.21-14.11.29:514][ 19]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.07.21-14.11.29:514][ 19]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.07.21-14.11.29:693][ 19]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.07.21-14.11.29:744][ 19]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.07.21-14.11.29:756][ 19]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.07.21-14.11.29:756][ 19]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.07.21-14.11.29:762][ 19]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.07.21-14.11.29:762][ 19]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.07.21-14.11.29:775][ 19]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.07.21-14.11.29:786][ 19]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.07.21-14.11.29:790][ 19]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.07.21-14.11.29:796][ 19]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.07.21-14.11.29:804][ 19]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.07.21-14.11.29:804][ 19]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.07.21-14.11.29:804][ 19]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.07.21-14.11.29:815][ 19]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.07.21-14.11.29:816][ 19]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.07.21-14.11.29:816][ 19]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.07.21-14.11.29:816][ 19]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.07.21-14.11.29:829][ 19]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.07.21-14.11.29:888][ 19]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.07.21-14.11.29:949][ 19]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.07.21-14.11.30:027][ 19]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.07.21-14.11.30:071][ 19]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.07.21-14.11.30:114][ 19]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.07.21-14.11.30:143][ 19]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.07.21-14.11.30:203][ 19]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.07.21-14.11.30:249][ 19]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.07.21-14.11.30:249][ 19]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.07.21-14.11.30:270][ 19]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.07.21-14.11.30:270][ 19]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.07.21-14.11.30:449][ 19]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.07.21-14.11.30:449][ 19]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.07.21-14.11.30:500][ 19]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.07.21-14.11.30:500][ 19]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.07.21-14.11.30:500][ 19]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.07.21-14.11.30:501][ 19]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.07.21-14.11.30:510][ 19]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.07.21-14.11.30:539][ 19]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.07.21-14.11.30:556][ 19]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.07.21-14.11.30:575][ 19]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.07.21-14.11.30:576][ 19]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.07.21-14.11.30:576][ 19]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.07.21-14.11.30:576][ 19]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.07.21-14.11.30:576][ 19]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.07.21-14.11.30:576][ 19]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.07.21-14.11.30:576][ 19]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.07.21-14.11.30:576][ 19]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.07.21-14.11.30:576][ 19]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.07.21-14.11.30:588][ 19]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.07.21-14.11.30:588][ 19]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.07.21-14.11.30:648][ 19]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.07.21-14.11.30:854][ 19]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.07.21-14.11.30:854][ 19]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.07.21-14.11.30:854][ 19]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.07.21-14.11.30:854][ 19]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.07.21-14.11.30:896][ 19]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.07.21-14.11.30:897][ 19]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.07.21-14.11.30:897][ 19]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.07.21-14.11.30:897][ 19]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.07.21-14.11.30:897][ 19]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.07.21-14.11.30:956][ 19]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.07.21-14.11.30:956][ 19]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.07.21-14.11.31:061][ 19]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.07.21-14.11.31:061][ 19]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.07.21-14.11.31:069][ 19]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.07.21-14.11.31:069][ 19]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.07.21-14.11.31:069][ 19]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.07.21-14.11.31:069][ 19]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.07.21-14.11.31:069][ 19]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.07.21-14.11.31:069][ 19]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.07.21-14.11.31:069][ 19]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.07.21-14.11.31:187][ 19]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.07.21-14.11.31:262][ 19]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.07.21-14.11.31:262][ 19]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.07.21-14.11.31:262][ 19]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.07.21-14.11.31:262][ 19]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.07.21-14.11.31:262][ 19]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.07.21-14.11.31:323][ 19]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.07.21-14.11.31:659][ 19]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.07.21-14.11.31:717][ 19]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.07.21-14.11.31:752][ 19]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.07.21-14.11.31:752][ 19]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.07.21-14.11.31:752][ 19]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.07.21-14.11.31:752][ 19]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.07.21-14.11.31:883][ 19]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.07.21-14.11.31:883][ 19]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.07.21-14.11.31:940][ 19]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.07.21-14.11.32:036][ 19]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.07.21-14.11.32:036][ 19]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.07.21-14.11.32:429][ 19]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.07.21-14.11.32:432][ 19]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.07.21-14.11.32:595][ 19]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.07.21-14.11.32:595][ 19]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.07.21-14.11.32:595][ 19]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.07.21-14.11.32:696][ 19]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.07.21-14.11.32:961][ 19]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.07.21-14.11.33:397][ 19]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.07.21-14.11.33:457][ 19]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.07.21-14.11.33:457][ 19]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.07.21-14.11.33:457][ 19]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.07.21-14.11.33:493][ 19]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.07.21-14.11.33:550][ 19]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.07.21-14.11.33:645][ 19]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.07.21-14.11.33:645][ 19]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.07.21-14.11.33:645][ 19]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.07.21-14.11.33:678][ 19]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.07.21-14.11.33:678][ 19]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.07.21-14.11.33:678][ 19]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.07.21-14.11.33:859][ 19]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.07.21-14.11.33:881][ 19]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.07.21-14.11.33:929][ 19]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.07.21-14.11.34:002][ 19]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.07.21-14.11.34:193][ 19]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.07.21-14.11.34:309][ 19]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.07.21-14.11.34:437][ 19]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.07.21-14.11.34:437][ 19]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.07.21-14.11.34:437][ 19]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.07.21-14.11.34:584][ 19]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.07.21-14.11.34:584][ 19]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.07.21-14.11.34:589][ 19]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.07.21-14.11.34:598][ 19]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.07.21-14.11.34:598][ 19]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.07.21-14.11.34:598][ 19]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.07.21-14.11.34:598][ 19]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.07.21-14.11.34:598][ 19]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.07.21-14.11.34:810][ 19]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.21-14.11.34:810][ 19]LogDirectoryWatcher: A directory notification for '../../../../../../Users/tethe/Documents/TerraGrande/Content/' was aborted.
+[2017.07.21-14.11.34:810][ 19]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.21-14.11.34:836][ 19]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.07.21-14.11.34:842][ 19]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.07.21-14.11.34:842][ 19]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.07.21-14.11.34:842][ 19]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.07.21-14.11.34:940][ 19]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.07.21-14.11.35:001][ 19]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.07.21-14.11.35:001][ 19]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.07.21-14.11.35:001][ 19]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.07.21-14.11.35:001][ 19]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.07.21-14.11.35:003][ 19]LogDerivedDataCache: Shutdown
+[2017.07.21-14.11.35:003][ 19]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.07.21-14.11.35:003][ 19]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.07.21-14.11.35:018][ 19]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.07.21-14.11.35:055][ 19]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.07.21-14.11.35:161][ 19]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.07.21-14.11.35:183][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.07.21-14.11.35:183][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.07.21-14.11.35:183][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.07.21-14.11.35:199][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.07.21-14.11.35:252][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.07.21-14.11.35:252][ 19]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.07.21-14.11.35:252][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.07.21-14.11.35:252][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.07.21-14.11.35:406][ 19]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.07.21-14.11.35:407][ 19]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.07.21-14.11.35:407][ 19]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.07.21-14.11.35:407][ 19]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.07.21-14.11.35:407][ 19]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.07.21-14.11.35:407][ 19]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.07.21-14.11.35:407][ 19]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.07.21-14.11.35:407][ 19]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.07.21-14.11.35:407][ 19]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.07.21-14.11.35:407][ 19]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.07.21-14.11.35:407][ 19]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.07.21-14.11.35:407][ 19]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.07.21-14.11.35:664][ 19]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.07.21-14.11.35:664][ 19]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.07.21-14.11.35:664][ 19]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.07.21-14.11.35:664][ 19]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.07.21-14.11.35:664][ 19]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.21-14.11.35:834][ 19]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.07.21-14.11.36:123][ 19]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.07.21-14.11.36:123][ 19]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.21-14.11.36:123][ 19]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B839E1302-416F-CA70-5C68-DA99F22089D4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=c18e5ec04a28a604ea3e55b737c1c602%7C76897619de5747a481085d3ca853ab1d%7Cd0b8038e-f79d-4a9e-ad6c-ec08adb0c31e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.21-14.11.36:136][ 19]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.07.21-14.11.36:157][ 19]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.21-14.11.36:263][ 19]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.21-14.11.36:276][ 19]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.21-14.11.36:276][ 19]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.21-14.11.36:276][ 19]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.21-14.11.36:342][ 19]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.21-14.11.36:411][ 19]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.21-14.11.36:411][ 19]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.21-14.11.36:493][ 19]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.21-14.11.36:494][ 19]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.21-14.11.36:494][ 19]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.21-14.11.36:494][ 19]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.21-14.11.36:494][ 19]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.21-14.11.36:494][ 19]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.21-14.11.36:494][ 19]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.21-14.11.36:570][ 19]LogExit: Exiting.
+[2017.07.21-14.11.36:578][ 19]Log file closed, 07/21/17 11:11:36
